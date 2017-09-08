@@ -2,6 +2,9 @@
       <text class='com-name'>{{comName}}</text>
       <text class='com-biref'>{{brief}}</text>
     </view>
-    <view class='phone'>{{phone}}</view>
-    <view class='address'>{{address}}</view>
-    <view class="map">{{map}}</view>
+    <view clas="content">
+      <view class='phone'>座机：{{phone}}</view>
+      <view class="mobile">手机： {{mobile}}</view>
+      <view class='address'>地址：{{address}}</view>
+      <view class="map">地图：{{map}}</view>
+    </view>

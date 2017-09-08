@@ -30,7 +30,7 @@
   </block>
 </view>
 
-<block wx:for="{{proArr}}" wx:for='{{proArr}}'>
+<block wx:for="{{proArr}}" wx:key='{{proArr}}'>
   <view class="pro-item">
     <image class='pro-img' src="{{item.src}}"></image>
     <view class='pro-info'>

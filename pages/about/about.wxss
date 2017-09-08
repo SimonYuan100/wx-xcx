@@ -10,3 +10,6 @@
 .com-biref{
   text-decoration: overline;
 }
+.content{
+  margin: 5vw;
+}

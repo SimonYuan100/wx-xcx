@@ -1,0 +1,68 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.com-login{
+  width: 100rpx;
+  color: #f00;
+  margin: 20rpx;
+  font-size: 40rpx;
+}
+.userinfo-img {
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  left: 70vw;
+  top: -12vw;
+  border-radius: 50%;
+}
+.title {
+  color: #666;
+  margin-left: 14vw;
+  padding-left: 4vw;
+  font-size: 5vw;
+  border-bottom: 1px solid #aaa;
+}
+.detail {
+  font-size: 4vw;
+  color: #aaa;
+  margin-left: 13vw;
+
+}
+.swiper{
+  margin-top: -15vw;
+}
+.slide-image{
+  width: 100vw;
+  height: 65vw;
+}
+.iocn-list{
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 50rpx;
+}
+.icon {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}

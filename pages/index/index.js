@@ -6,7 +6,7 @@ Page({
     motto: '',
     userInfo: {},
     comName: '强中鑫贸易',
-    detail: '机制竹炭 | 新疆孜然',
+    brief: '机制竹炭 | 新疆孜然',
     indicatorDots: true,
     autoplay: true,
     interval: 2000,
@@ -23,7 +23,19 @@ Page({
       'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'
     ],
-    textArr: ['竹炭', '孜然', '竹签', '米粉', '米皮']
+    textArr: ['竹炭', '孜然', '竹签', '米粉', '米皮'],
+    proArr: [
+      {
+        src: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg",
+        title: '机制竹炭',
+        dis: '优质天然机制竹炭。。。'
+      },
+      {
+        src: "http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg",
+        title: '新疆孜然',
+        dis: '优质新疆孜然。。。'
+      }
+    ]
   },
   //事件处理函数
   bindViewTap: function() {

@@ -1,3 +1,7 @@
-<view class="about">
-  <view class="name">强中鑫</view>
-</view>
+    <view class="com-box">
+      <text class='com-name'>{{comName}}</text>
+      <text class='com-biref'>{{brief}}</text>
+    </view>
+    <view class='phone'>{{phone}}</view>
+    <view class='address'>{{address}}</view>
+    <view class="map">{{map}}</view>

@@ -1,5 +1,12 @@
-.name{
+.com-box{
   display: flex;
-  text-align: center；
-  color： #f00
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.com-name{
+  color: #555;
+}
+.com-biref{
+  text-decoration: overline;
 }

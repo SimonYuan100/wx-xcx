@@ -56,10 +56,14 @@
 .iocn-list{
   display: flex;
   flex-direction: row;
-  height: 200rpx;
-  align-items: center;
+  height: 150rpx;
+  align-items: flex-end;
   justify-content: space-around;
   padding: 0 50rpx;
+}
+.text-list{
+    align-items: flex-start;
+    font-size: 32rpx;
 }
 .icon {
   width: 100rpx;

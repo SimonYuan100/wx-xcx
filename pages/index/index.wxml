@@ -3,7 +3,7 @@
   <view class="login" bindtap="goNext">
     <text class="title">{{comName}}</text>
     <text class="detail">{{detail}}</text>
-    <image class="userinfo-img" src="{{userInfo.avatarUrl}}"></image>
+     <image class="userinfo-img" src="{{userInfo.avatarUrl}}"></image> 
     <!-- <text class="userinfo-nickname">{{userInfo.nickName}}</text> -->
   </view>
 </view>
@@ -18,5 +18,10 @@
 <view class="iocn-list">
   <block wx:for="{{srcArr}}">
     <image class="icon" src="{{item}}"></image>
+  </block>
+</view>
+<view class="iocn-list text-list">
+  <block wx:for="{{textArr}}">
+    <text class="icon-text">{{item}}</text>
   </block>
 </view>

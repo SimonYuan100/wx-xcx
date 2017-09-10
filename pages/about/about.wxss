@@ -2,14 +2,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  color: #aaa
 }
 .com-name{
-  color: #555;
+  color: #ff7f00;
 }
 .com-biref{
   text-decoration: overline;
 }
 .content{
   margin: 5vw;
+  color: #aaa;
 }

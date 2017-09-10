@@ -31,7 +31,7 @@
 </view>
 
 <block wx:for="{{proArr}}" wx:key='{{proArr}}'>
-  <view class="pro-item">
+  <view class="pro-item" bindtap='{{item.tap}}'>
     <image class='pro-img' src="{{item.src}}"></image>
     <view class='pro-info'>
       <view class="info-title">{{item.title}}</view>

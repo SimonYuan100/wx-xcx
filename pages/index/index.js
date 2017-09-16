@@ -12,28 +12,47 @@ Page({
     interval: 2000,
     duration: 1000,
     imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      // 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      // 'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      // 'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      'cumin',
+      'fuel',
+      'grill',
+      'bamboo-charcoal'
     ],
     srcArr: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg',
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'
+      'bamboo-charcoal',
+      'cumin',
+      'fuel',
+      'fuel-box',
+      'grill'
     ],
-    textArr: ['竹炭', '孜然', '竹签', '米粉', '米皮'],
+    textArr: ['竹炭', '孜然', '燃料油', '燃料盒', '烧烤架'],
     proArr: [
       {
-        src: "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg",
+        src: "bamboo-charcoal",
         title: '机制竹炭',
-        dis: '优质天然机制竹炭。。。'
+        dis: '优质天然烧烤机制竹炭'
       },
       {
-        src: "http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg",
+        src: "cumin",
         title: '新疆孜然',
         dis: '优质新疆孜然。。。'
+      },
+      {
+        src: "fuel",
+        title: '燃料油',
+        dis: '火锅烤鱼炉酒精炉煮茶干锅环保燃料油'
+      },
+      {
+        src: "fuel-box",
+        title: '燃料盒',
+        dis: '环保油燃料盒植物油燃料小火锅干锅烤鱼炉专用燃料盒'
+      },
+      {
+        src: "grill",
+        title: '烧烤架',
+        dis: '轻巧便捷、室内保温架、烧烤架'
       }
     ]
   },

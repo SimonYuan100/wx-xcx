@@ -34,7 +34,7 @@
   align-items: center
 }
 .com-name{
-  color: #555;
+  color: #ff7f00;
 }
 .com-biref{
   text-decoration: overline;
@@ -107,7 +107,7 @@
   width: 55vw;
   display: inline-block;
   position: relative;
-  top: -10vw;
+  top:-20%;
   left: 2vw;
 }
 .info-title{
@@ -122,5 +122,11 @@
   padding-top: 10rpx;
 }
 .last {
-  height: 60vw;
+  height: 200rpx;
+}
+.swiper{
+  height: 350rpx;
+}
+.margin{
+  margin-top: 50rpx;
 }

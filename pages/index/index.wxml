@@ -15,24 +15,24 @@
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}" wx:key="imgurls">
     <swiper-item>
-      <image src="{{item}}" class="slide-image"/>
+      <image src="../../images/mo-banner/{{item}}.jpg" class="slide-image"/>
     </swiper-item>
   </block>
 </swiper>
-<view class="iocn-list">
+ <!-- <view class="iocn-list">
   <block wx:for="{{srcArr}}" wx:key="{{srcArr}}">
-    <image class="icon" src="{{item}}"></image>
+    <image class="icon" src="../../images/le-banner/{{item}}.jpg"></image>
   </block>
-</view>
-<view class="iocn-list text-list">
+</view>  -->
+ <!-- <view class="iocn-list text-list">
   <block wx:for="{{textArr}}" wx:key="{{textArr}}">
     <text class="icon-text">{{item}}</text>
   </block>
-</view>
-
+</view>  -->
+ <view class='margin'></view>
 <block wx:for="{{proArr}}" wx:key='{{proArr}}'>
   <view class="pro-item" bindtap='{{item.tap}}'>
-    <image class='pro-img' src="{{item.src}}"></image>
+    <image class='pro-img' src="../../images/le-banner/{{item.src}}.jpg"></image>
     <view class='pro-info'>
       <view class="info-title">{{item.title}}</view>
       <view class="info-dis">{{item.dis}}</view>

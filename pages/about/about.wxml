@@ -4,8 +4,8 @@
     </view>
     <view class="content">
       <view class='phone'>座机：{{phone}}</view>
-      <view class="mobile">手机： {{mobile}}</view>
+      <view class="mobile"><rich-text nodes="{{nodeA}}"></rich-text></view>
       <view class='address'>地址：{{address}}</view>
-      <view class="map">地图：{{map}}</view>
+      <!-- <view class="map">地图：{{map}}</view> -->
     </view>
-  <map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+  <map id="map" class="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location ></map>

@@ -1,0 +1,8 @@
+.detail{
+  width: 100vw;
+}
+.img{
+  width:92vw;
+  border-radius: 20rpx;
+  margin: 10rpx 4vw;
+}

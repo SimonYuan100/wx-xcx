@@ -3,8 +3,8 @@
       <text class='com-biref'>{{brief}}</text>
     </view>
     <view class="content">
-      <view class='phone'>座机：{{phone}}</view>
-      <view class="mobile"><rich-text nodes="{{nodeA}}"></rich-text></view>
+      <view class='phone'>联系人：孔经理</view>
+      <view class="mobile" bindtap='callme'>手机：<text style="color:#ff7f00">{{mobile}}</text></view>
       <view class='address'>地址：{{address}}</view>
       <!-- <view class="map">地图：{{map}}</view> -->
     </view>

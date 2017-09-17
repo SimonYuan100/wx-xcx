@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="com-login" bindtap="goNext">
+  <view class="com-login">
     <view class="com-box">
       <text class='com-name'>{{comName}}</text>
       <text class='com-biref'>{{brief}}</text>
@@ -13,7 +13,7 @@
 </view>
  <swiper indicator-dots="{{indicatorDots}}" class="swiper"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-  <block wx:for="{{imgUrls}}" wx:key="imgurls">
+  <block wx:for="{{imgUrls}}" wx:key="imgUrls">
     <swiper-item>
       <image src="../../images/mo-banner/{{item}}.jpg" class="slide-image"/>
     </swiper-item>
@@ -30,8 +30,8 @@
   </block>
 </view>  -->
  <view class='margin'></view>
-<block wx:for="{{proArr}}" wx:key='{{proArr}}'>
-  <view class="pro-item" bindtap='{{item.tap}}'>
+<block wx:for="{{proArr}}" wx:key='proArr'>
+  <view class="pro-item" bindtap='goDetail' data-id="{{item.src}}">
     <image class='pro-img' src="../../images/le-banner/{{item.src}}.jpg"></image>
     <view class='pro-info'>
       <view class="info-title">{{item.title}}</view>

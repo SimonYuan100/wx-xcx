@@ -1,3 +1,7 @@
 <view class="detail">
-  <block></block>
+  <block wx:for="{{detailList}}" wx:key="detail">
+    <view>
+      <image src="../../images/detail/{{item}}.jpg" class="img"></image>
+    </view>
+  </block>
 </view>

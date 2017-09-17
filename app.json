@@ -1,13 +1,13 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/detail/detail",
     "pages/about/about"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "烧烤用品旗舰商城",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {

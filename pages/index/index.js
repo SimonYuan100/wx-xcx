@@ -57,14 +57,20 @@ Page({
     ]
   },
   //事件处理函数
-  bindViewTap: function() {
+  // bindViewTap: function() {
+  //   wx.navigateTo({
+  //     url: '../logs/logs'
+  //   })
+  // },
+  goNext: function () {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
-  goNext: function () {
+  goDetail: function (e) {
+    var value = e.currentTarget.dataset.id;
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../detail/detail?k=' + value,
     })
   },
   onLoad: function () {

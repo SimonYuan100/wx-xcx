@@ -1,5 +1,6 @@
 .detail{
   width: 100vw;
+  margin-bottom: 5vw;
 }
 .img{
   width:92vw;

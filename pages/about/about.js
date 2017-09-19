@@ -15,11 +15,11 @@ Page({
       longitude: '113.9390800000',
       width: 30,
       height: 30
-    }],
-    callme: function () {
-      wx.makePhoneCall({
-        phoneNumber: 13715368599
-      })
-    }
+    }]
+  },
+  callme: function () {
+    wx.makePhoneCall({
+      phoneNumber: '13715368599'
+    })
   }
 })
